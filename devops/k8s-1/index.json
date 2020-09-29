@@ -6,8 +6,7 @@
   "details": {
     "steps": [{
         "title": "Create a Pod",
-        "text": "step1.md",
-        "foreground": "launch.sh"
+        "text": "step1.md"
       },
       {
         "title": "Check a Pod",
@@ -23,7 +22,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "hideintro": true,
+    "uilayout": "terminal-terminal"
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
