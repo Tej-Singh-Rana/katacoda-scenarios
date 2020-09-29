@@ -2,7 +2,7 @@
 Create a Pod with the imperative command.
 
 
-launch the kubernetes cluster.
+launch the **Kubernetes** cluster.
 
 ```
 launch.sh 
