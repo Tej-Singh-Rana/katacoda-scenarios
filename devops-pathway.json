@@ -1,0 +1,16 @@
+{
+  "title": "Learn DevOps Technologies",
+  "description": "Introduction to DevOps World",
+  "courses": [
+    {
+      "course_id": "k8s-1",
+      "title": "Pods",
+      "description": "Learn how to create a Pods."
+    },
+    {
+      "course_id": "k8s-2",
+      "title": "Deployments",
+      "description": "Learn how to create a Deployments."
+    }
+  ]
+}
