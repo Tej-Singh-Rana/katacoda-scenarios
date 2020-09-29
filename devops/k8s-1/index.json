@@ -25,7 +25,8 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "kubernetes-master-ubuntu1804-1-18",
+    "imageid": "kubernetes"
+    // "imageid": "kubernetes-master-ubuntu1804-1-18",
     // "imageid": "kubernetes-node-ubuntu1804-1-18"
   }
 }
