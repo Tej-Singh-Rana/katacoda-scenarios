@@ -1,31 +1,29 @@
-
 {
   "title": "Pods",
   "description": "Learn how to create a Pods.",
   "difficulty": "Super-Beginner",
   "time": "5-10 Minutes",
   "details": {
-    "steps": [
-      {
+    "steps": [{
         "title": "Create a Pod",
-        "text": "step1.md",
+        "text": "step1.md"
       },
       {
         "title": "Check a Pod",
-        "text": "step2.md",
-      },
+        "text": "step2.md"
+      }
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "https://kubernetes.io",
+      "credits": "https://kubernetes.io"
     },
     "finish": {
-      "text": "finish.md",
+      "text": "finish.md"
     }
   },
   "environment": {
-      "uilayout": "terminal"
-},
+    "uilayout": "terminal"
+  },
   "backend": {
     "imageid": "kubernetes-cluster:1.18"
   }
