@@ -1,3 +1,4 @@
+
 {
   "title": "Pods",
   "description": "Learn how to create a Pods.",
@@ -23,9 +24,9 @@
     }
   },
   "environment": {
-  "uilayout": "terminal"
+      "uilayout": "terminal"
 },
-"backend": {
-  "imageid": "kubernetes-cluster:1.18"
-}
+  "backend": {
+    "imageid": "kubernetes-cluster:1.18"
+  }
 }
