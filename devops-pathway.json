@@ -11,6 +11,11 @@
       "course_id": "k8s-2",
       "title": "Deployments",
       "description": "Learn how to create a Deployments."
+    },
+    {
+      "course_id": "k8s-3",
+      "title": "Jenkins",
+      "description": "Learn how to create a Jenkins Pod"
     }
   ]
 }

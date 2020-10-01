@@ -1,0 +1,26 @@
+{
+  "title": "Jenkins",
+  "description": "Learn how to create a Jenkins Pod.",
+  "difficulty": "Super-Beginner",
+  "time": "5-10 Minutes",
+  "details": {
+    "steps": [{
+        "title": "Create a Jenkins Pod",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}
