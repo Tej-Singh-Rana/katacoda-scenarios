@@ -18,7 +18,9 @@
   },
   "environment": {
     "hideintro": true,
-    "uilayout": "terminal"
+    "uilayout": "terminal-terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Port 8080", "port": 32500}],
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"

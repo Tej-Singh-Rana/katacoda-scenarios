@@ -14,7 +14,7 @@ kubectl run jenkins --image=jenkins
 
 
 ```
-kubectl expose pod jenkins --name jenkins-service --tcp 8080 
+kubectl expose pod jenkins --name jenkins-service --port 8080 --type NodePort
 ```{{execute}}
 
 Run the jenkins file
