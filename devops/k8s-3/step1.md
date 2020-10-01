@@ -17,3 +17,37 @@ kubectl run jenkins --image=jenkins
 kubectl expose pod jenkins --name jenkins-service --tcp 8080 
 ```{{execute}}
 
+Run the jenkins file
+
+```
+cat << EOF > /root/jenkins.yaml
+kind: Pod
+apiVersion: v1
+metadata:
+  name: jenkins
+  labels:
+     run: jenkins
+spec:
+  volumes:
+  - name: data
+    hostPath:
+      path: /opt/data
+      type: DirectoryOrCreate
+  containers:
+  - name: jenkins
+    image: jenkins
+    volumeMounts:
+    - name: data
+      mountPath: /var/jenkins_home
+EOF
+```{{execute}}
+
+
+```
+kubectl create -f /root/jenkins.yaml
+```{{execute}}
+
+
+
+
+

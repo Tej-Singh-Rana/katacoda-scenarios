@@ -3,16 +3,19 @@
   "description": "Introduction to DevOps World",
   "courses": [
     {
+      "pathway_id": "tej_singh_rana",
       "course_id": "k8s-1",
       "title": "Pods",
       "description": "Learn how to create a Pods."
     },
     {
+      "pathway_id": "tej_singh_rana",
       "course_id": "k8s-2",
       "title": "Deployments",
       "description": "Learn how to create a Deployments."
     },
     {
+      "pathway_id": "tej_singh_rana",
       "course_id": "k8s-3",
       "title": "Jenkins",
       "description": "Learn how to create a Jenkins Pod"
