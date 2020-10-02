@@ -28,17 +28,9 @@ metadata:
   labels:
      run: jenkins
 spec:
-  volumes:
-  - name: data
-    hostPath:
-      path: /tmp/data/
-      type: DirectoryOrCreate
   containers:
   - name: jenkins
     image: jenkins
-    volumeMounts:
-    - name: data
-      mountPath: /var/jenkins_home
 EOF
 ```{{execute}}
 
