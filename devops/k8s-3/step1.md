@@ -31,7 +31,7 @@ spec:
   volumes:
   - name: data
     hostPath:
-      path: /opt/data
+      path: /tmp/data/
       type: DirectoryOrCreate
   containers:
   - name: jenkins
